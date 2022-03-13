@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{52aa5320-d79b-1197-81a1-353ce4bf990b}</ProjectGuid>
+    <ProjectGuid>{d41a203d-3d19-1661-8550-afee470c0f0d}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -36,15 +36,16 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraControl.cs" />
-     <Compile Include="Assets\Scripts\CameraIntroControl.cs" />
-     <Compile Include="Assets\Scripts\ChaserControl.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
-     <Compile Include="Assets\Scripts\LevelManager.cs" />
-     <Compile Include="Assets\Scripts\PlayerControl.cs" />
-     <Compile Include="Assets\Scripts\ProgressBarControl.cs" />
-     <Compile Include="Assets\Scripts\SlowObstacle.cs" />
-     <None Include="Assets\Material Sources.txt" />
+     <Compile Include="Assets\Scripts\LevelRotation.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\CameraIntroControl.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\ChaserControl.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\ProgressBarControl.cs" />
+     <Compile Include="Assets\_Original Game Assets\Scripts\SlowObstacle.cs" />
+     <None Include="Assets\_Original Game Assets\Material Sources.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -229,7 +230,7 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/PackageCache/com.unity.ext.nunit@1.0.5/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -577,31 +578,31 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.16f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Assignment 1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>C:/Users/Chris/Desktop/Coding/Unity/CSC 4263/Dropping-Marbles/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
